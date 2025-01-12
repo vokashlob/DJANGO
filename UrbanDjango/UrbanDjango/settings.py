@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'task2',
     'task3',
-    'task4'
+    'task4',
+    'task5'
 ]
 
 MIDDLEWARE = [
@@ -120,8 +121,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [
-    BASE_DIR / "static",
-    "/var/www/static/",
+    BASE_DIR / "static"
 ]
 
 # Default primary key field type

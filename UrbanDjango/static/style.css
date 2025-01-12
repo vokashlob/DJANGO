@@ -13,3 +13,6 @@ a.button {
     text-decoration: none;
 }
 .menu {text-transform: uppercase; font-kerning: none; letter-spacing: 2px;}
+.field {clear:both; text-align:right; line-height:25px;}
+label {float:left; padding-right:10px;}
+.form {float:left}
